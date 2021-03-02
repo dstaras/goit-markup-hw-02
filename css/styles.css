@@ -1,0 +1,81 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/* font-family: 'Raleway', sans-serif; */
+.header-section {
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+}
+.header-section-logo {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+.header-section-logo-color-blue {
+  color: #2196f3;
+}
+.header-section-nav a {
+  width: 294px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  text-decoration: none;
+}
+.header-section-nav-studio {
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+.header-section-nav-portfolio {
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-section-nav-contacts {
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-section-mail {
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+  color: #2196f3;
+}
