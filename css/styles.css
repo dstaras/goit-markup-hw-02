@@ -19,6 +19,7 @@ body {
   color: #000000;
   text-decoration: none;
   font-family: Raleway, sans-serif;
+  font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -38,6 +39,10 @@ body {
 .link {
   color: var(--primery-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .link:hover,
 .link:focus {
@@ -52,6 +57,10 @@ body {
 .connect-data {
   text-decoration: none;
   color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .connect-data:hover {
   color: var(--accent-color);
@@ -71,10 +80,23 @@ body {
 }
 .heading {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .button {
   background-color: var(--accent-color);
   color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* Main section */
@@ -84,13 +106,26 @@ body {
 }
 .title {
   color: var(--primery-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .text {
   color: var(--secondary-color);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 /* Our work */
 .our-work {
   color: var(--primery-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .work-image li {
   display: inline;
@@ -103,15 +138,27 @@ body {
 }
 .team {
   color: var(--primery-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .squad li {
   list-style: none;
 }
 .worker {
   color: var(--primery-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
 }
 .position {
   color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
 }
 
 /* Footer section */
@@ -121,13 +168,28 @@ body {
 }
 .address {
   color: var(--primery-gb-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 .footer-connect {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 .footer-relations li {
   list-style: none;
+}
+.logo.footer {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
 /* Portfolio */
@@ -143,6 +205,11 @@ body {
   text-decoration: none;
   color: var(--primery-color);
   background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -156,7 +223,14 @@ body {
 }
 .title-project {
   color: var(--primery-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
 }
 .filter-comment {
   color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
 }
